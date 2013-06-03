@@ -1,13 +1,14 @@
-sass project starter
-====================
 
-## New sass project workflow
+
+## New sass project setup workflow
 
 This workflow describes how to clone saas project starter from github and create new project within bitbucket. Github has great features for public repost collaboration while bitbucket has great free features for private repos.
 
 
 1.	Make sure you have compass installed ( http://compass-style.org/install/ )
-Clone sass project directory: `“git clone https://github.com/perfx/sass_project_starter.git new_project_name”`
+Clone sass project directory: 
+		
+		“git clone https://github.com/perfx/sass_project_starter.git new_project_name”
 
 2.	Change your location to newly created directory:
 		
@@ -39,7 +40,8 @@ Clone sass project directory: `“git clone https://github.com/perfx/sass_projec
 
 Your good to go.
 
-## Existing sass project workflow
+
+## Existing sass project setup workflow
 
 If you want to add or change something in existing saas project follow these steps. Steps are based on checking out private repository from bitbucket.
 
@@ -88,6 +90,18 @@ If you want to add or change something in existing saas project follow these ste
 
 ## General info about sass/compass based projects
 
+
+
 You can configure compass project by altering info in config.rb files. These are ruby files and saas project starter contains couple of examples.
+
+-	When launching project it's advisable to configure `config.rb` file to production mode:
+	
+		output_style 		= :nested
+		environment 		= :development
+
+
+		# output_style 		= :compressed
+		# environment 		= :production
+
 
 Some project may require susy ( http://susy.oddbird.net/ ) so you’ll need to install this gem. Please note if your using software like codekit or livereload to auto compile and reload your pages you’ll need to point to your compass file with newly added gem instead of the one the mentioned apps use.
