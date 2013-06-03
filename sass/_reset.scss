@@ -1,0 +1,17 @@
+// 
+// Additional resets
+// 
+
+
+/* Mozila button reset
+--------------------------------------- */
+.bu::-moz-focus-inner,
+button::-moz-focus-inner,
+input::-moz-focus-inner { padding: 0; border: none; }
+
+/* Webkit placeholder fix
+--------------------------------------- */
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.3s 0.3s ease; 
+  opacity: 0;
+}
