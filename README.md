@@ -1,4 +1,4 @@
-saas_project_starter
+sass project starter
 ====================
 
 ## New sass project workflow
@@ -89,4 +89,5 @@ If you want to add or change something in existing saas project follow these ste
 ## General info about sass/compass based projects
 
 You can configure compass project by altering info in config.rb files. These are ruby files and saas project starter contains couple of examples.
+
 Some project may require susy ( http://susy.oddbird.net/ ) so you’ll need to install this gem. Please note if your using software like codekit or livereload to auto compile and reload your pages you’ll need to point to your compass file with newly added gem instead of the one the mentioned apps use.
