@@ -23,7 +23,7 @@ Clone sass project directory: `“git clone https://github.com/perfx/sass_projec
 
 5.	Create Bitbucket project and add origin to you newly created one:
 		
-		git remote add origin https://username@bitbucket.org/perfx/new_project_name.git
+		git remote add origin https://username@bitbucket.org/username/new_project_name.git
 
 6.	Add all files :
 	
@@ -68,7 +68,7 @@ If you want to add or change something in existing saas project follow these ste
 
 -	Make compass re-compile .sass files each time you make changes
 
-	compass watch
+		compass watch
 
 
 ## Basic git commands
