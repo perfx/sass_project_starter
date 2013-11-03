@@ -1,0 +1,18 @@
+{
+    "name"           : "project",
+    "version"        : "0.0.1",
+    "devDependencies": {
+        "grunt"                 : "~0.4.1",
+        "grunt-contrib-compass" : "*",
+        "grunt-contrib-imagemin": "*",
+        "grunt-include-replace" : "*",
+        "grunt-contrib-copy"    : "*",
+        "grunt-contrib-uglify"  : "*",
+        "grunt-rm"              : "*",
+        "grunt-autoprefixer"    : "*",
+        "grunt-contrib-watch"   : "*",
+        "grunt-contrib-cssmin"  : "*",
+        "grunt-growl"           : "*",
+        "grunt-notify"          : "*"
+    }
+}
